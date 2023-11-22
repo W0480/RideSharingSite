@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .container h2, .container p {
+    margin-bottom: 20px;
+  }
+
+  #logo {
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .navbar {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }

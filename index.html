@@ -1,0 +1,131 @@
+<!-- Author: Dan Asmuth
+Student ID: W0480680
+Course: IT Generalist   
+Date: 11.20.2023
+Project: Responsive Web Site with Bootstrap 5 Quick Start with Navigation
+Version: HTML Bootstrap 5
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>NSCC Ride Sharing</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <!-- Bootstrap CSS link -->
+<link rel="stylesheet"         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+      <!-- Bootstrap JS (Latest Compiled JavaScript) -->
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+</script>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="logo.jpg" alt="Ride Sharing Logo" id="logo"></a>
+                    <a class="navbar-brand" href="#">Ride Sharing</a>
+                    <!-- Toggler Button for Mobile View -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNAV">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navigation Links -->
+                    <div class="collapse navbar-collapse" id="navbarNAV">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="">Need a Ride</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="">Give a Ride</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="">Testimonies</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="">FAQs</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Safety</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section id="hero">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                      <div class="card">
+                        <div class="card-body">
+                          <h2 class="card-title text-center">Share your journey to school</h2>
+                          <p class="text-center">Tell us your route</p>
+                          <form>
+                            <div class="mb-3">
+                              <input type="text" class="form-control" placeholder="Origin">
+                            </div>
+                            <div class="mb-3">
+                              <input type="text" class="form-control" placeholder="Destination">
+                            </div>
+                            <div class="mb-3">
+                              <input type="datetime-local" class="form-control">
+                            </div>
+                            <div class="d-grid gap-2">
+                              <button type="submit" class="btn btn-primary">Give a Ride</button>
+                              <button type="button" class="btn btn-secondary">Need a Ride</button>
+                              <button type="button" class="btn btn-danger">Cancel a Ride</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            </section>
+
+            <!-- Drivers and Riders Section -->
+            <section id="drivers-riders">
+            <div class="container">
+                <!-- Content  -->
+            </div>
+            </section>
+
+            <!-- Testimonies Section -->
+            <section id="testimonies">
+            <div class="container">
+                <!-- Content  -->
+            </div>
+            </section>
+
+            <!-- FAQs Section -->
+            <section id="faqs">
+            <div class="container">
+                <!-- Content -->
+            </div>
+            </section>
+
+            <!-- Safety Section -->
+            <section id="safety">
+            <div class="container">
+                <!-- Content  -->
+            </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+            <p>&copy; 2023 Dan Asmuth</p>
+            </div>
+        </footer>
+    </body>
+</html>
